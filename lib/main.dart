@@ -4,11 +4,14 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iiex_music/core/theme/app_theme.dart';
 import 'package:iiex_music/firebase_options.dart';
 import 'package:iiex_music/routes/routes.dart';
+import 'package:iiex_music/service_locator.dart';
 
 Future<void> main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
+  initializeDependencies();
 
   runApp(const MyApp());
 }
