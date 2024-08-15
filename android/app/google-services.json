@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "54243215547",
+    "project_id": "musify-e648e",
+    "storage_bucket": "musify-e648e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54243215547:android:d7d40cf01e89401fc5819e",
+        "android_client_info": {
+          "package_name": "com.example.iiex_music"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbkLc1QKUwfCf7fm2t2G_jLQUewdYJOAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
